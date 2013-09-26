@@ -13,7 +13,7 @@ printf ("digite a quantidade de mochila: ");
 scanf ("%d", &qmochi);
 
 if (qmala <= 3)
-{ vmala = 230;}
+{ vmala = 230;}.ç~ç.~ç
 else {vmala = 220;}
 
 if (qbolsa <= 4)
