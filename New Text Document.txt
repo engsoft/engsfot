@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main ()
+{
+int vmala, qmala, vmochi, qmochi, vbolsa, qbolsa, total;
+
+
+printf ("digite a quantidade de mala: ");
+scanf ("%d", &qmala);
+printf ("digite a quantidade de bolsa: ");
+scanf ("%d", &qbolsa);
+printf ("digite a quantidade de mochila: ");
+scanf ("%d", &qmochi);
+
+if (qmala <= 3)
+{ vmala = 230;}
+else {vmala = 220;}
+
+if (qbolsa <= 4)
+{ vbolsa = 200;}
+else {vbolsa=190;}
+
+if (qmochi <= 6)
+{ vmochi =  150;}
+else { vmochi = 125;}
+
+total= (vmala*qmala)+(qbolsa*vbolsa)+(qmochi*vmochi);
+
+printf("o valor de sua compra foi: %d", total);
